@@ -6,29 +6,45 @@
 }
 
 main {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     font-family: 'Outfit', sans-serif;
     font-weight: 300;
     font-size: 18px;
     background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
     background-color: hsl(216, 50%, 16%);
     width: 375px;
-    height: 778px;
+    height: 480px;
+    padding: 20px;
+    padding-top: 30px;
+    border-radius: 10px;
 }
+
 .principal {
-    width: 275px;
+    width: 375px;
     height: 275px;
+    border-radius: 10px;
 }
 
 h1 {
     color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    padding: 10px 0px 10px 0px;
 }
 p {
     color: hsl(215, 51%, 70%);
+    padding: 0px 0px 10px 0px;
+}
+
+.dados {
+    display: flex;
+    justify-content: space-between;
 }
 
 div p#azul {
@@ -40,12 +56,26 @@ div p#cinza {
 }
 .linha {
     size: 1px;
-    margin-left: 10%;
-    width: 300px;
+    width: 375px;
     color: hsl(215, 32%, 27%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rodape {
+    display:flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.icone {
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
 }
 
 strong {
     color: hsl(0, 0%, 100%);
+    padding-left: 2px;
 }
 
