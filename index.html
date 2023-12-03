@@ -1,27 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="estilos/style.css">
   <title>Frontend Mentor | NFT preview card component</title>
 
 </head>
 <body>
-  <section>
-    <img src="images/image-equilibrium.jpg" alt="">
+  <main>
+    <div class='card'>
+      <img class="principal" src="images/image-equilibrium.jpg" alt="">
     <h1> Equilibrium #3429</h1>
 
     <p>Our Equilibrium collection promotes balance and calm.</p>
   
     <div>
-      <p><img src="images/icon-ethereum.svg" alt="">0.041 ETH</p>
-      <p><img src="images/icon-clock.svg" alt="">3 days left</p>
+      <p id="azul"><img src="images/icon-ethereum.svg" alt="">0.041 ETH</p>
+      <p id="cinza"><img src="images/icon-clock.svg" alt="">3 days left</p>
     </div>
+    <br>
+    <hr class="linha">
+    <br>
     <p><img src="images/image-avatar.png" alt="">Creation of <strong>Jules Wyvern</strong></p>
-  </section>
+  </div>
+    
+  </main>
 
 </body>
 </html>
